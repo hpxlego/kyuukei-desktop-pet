@@ -1,0 +1,14 @@
+[remap]
+
+importer="import_gif_to_animated_texture"
+type="AnimatedTexture"
+uid="uid://dijxsmab2pbq8"
+path="res://.godot/imported/pixel-art-kemomimi.gif-f3ea8252b10bd1345025f5151f53491c.tres"
+
+[deps]
+
+source_file="res://Assets/pixel-art-kemomimi.gif"
+dest_files=["res://.godot/imported/pixel-art-kemomimi.gif-f3ea8252b10bd1345025f5151f53491c.tres"]
+
+[params]
+

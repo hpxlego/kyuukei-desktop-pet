@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=3 uid="uid://bqp6mf1x5luk7"]
+
+[ext_resource type="Texture2D" uid="uid://d3gd7bdj4qrp3" path="res://iconaaa.svg" id="1_b4kvg"]
+[ext_resource type="Script" path="res://quick-test/test_gui_input.gd" id="1_khwg2"]
+
+[node name="TestGuiInput" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_b4kvg")
+script = ExtResource("1_khwg2")
+
+[node name="Control" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 40.0
+offset_top = 180.0
+offset_right = 143.0
+offset_bottom = 265.0
+script = ExtResource("1_khwg2")
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 213.0
+offset_top = 113.0
+offset_right = 341.0
+offset_bottom = 241.0
+texture = ExtResource("1_b4kvg")
+script = ExtResource("1_khwg2")
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]
